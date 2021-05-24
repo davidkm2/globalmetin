@@ -1,0 +1,16 @@
+data/
+locale/
+log/
+mark/
+package/
+syslog.txt
+syserr.txt
+neterr.txt
+usage.txt
+VERSION.txt
+item_*.txt
+mob_*.txt
+PTS.txt
+db_d.exe
+db.exe
+*.dmp

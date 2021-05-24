@@ -1,0 +1,18 @@
+[
+	{
+		"dir": "root",
+		"file": "root.vpf",
+		"visualdir": "",
+		"key": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+		"type": 3,
+		"version": 1,
+		"ignores": [
+			"*.csv",
+			"*error_lookup.pyc",
+			"*test*.pyc"
+		],
+		"patches": {
+			"stdlib\\": ""
+		}
+	}
+]

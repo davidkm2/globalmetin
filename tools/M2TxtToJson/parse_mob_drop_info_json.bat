@@ -1,0 +1,1 @@
+bin/M2TxtToJson.exe 2 1 mob_drop_item.txt

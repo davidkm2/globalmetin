@@ -1,0 +1,35 @@
+{
+	"stage": "dev",
+
+    "dev":
+    {
+		"bind_ip": "127.0.0.1",
+		"bind_port": 15000,
+
+		"test_server": false,
+		"logs_enable": true,
+
+		"heartbeat": 50,
+		"log_keep_days": 3,
+
+		"charset": "latin1",
+
+		"player_cache_flush_seconds": 420,
+		"item_cache_flush_seconds": 300,
+		"item_pricelist_cache_flush_seconds": 540,
+		"activity_cache_flush_seconds": 600,
+		"cache_flush_limit_per_second": 200,
+		"player_id_start": 100,
+        
+        "databases":
+		{
+			"SQL_ACCOUNT": {"address": "127.0.0.1", "user": "mt2", "password": "mt2", "database": "account", "port": 3306},
+			"SQL_PLAYER": {"address": "127.0.0.1", "user": "mt2", "password": "mt2", "database": "player", "port": 3306},
+			"SQL_COMMON": {"address": "127.0.0.1", "user": "mt2", "password": "mt2", "database": "common", "port": 3306}
+        },
+
+        "player_delete_level_limit": 70,
+
+        "item_id_range": {"min": 2000000000, "max":2100000000}
+    }
+}

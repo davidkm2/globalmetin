@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ff111924-9e62-468d-afdb-d63f8c3b2c23}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7173aaf1-147b-460c-ae8e-d48898b42f49}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c07977c9-6655-4d7c-a7a5-dc88016c4b35}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{c8ce503f-1313-48ad-9dcd-3939c74c3e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Support">
+      <UniqueIdentifier>{c90bec41-0502-49a1-bd6c-6d598ad82acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility Classes">
+      <UniqueIdentifier>{81b0b5d5-e0ab-439b-a8a5-02108553c2b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CommonSource\Environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\SpeedTreeCullEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\SpeedTreeForest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\SpeedTreeInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\SpeedTreeWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxut\dxstdafx.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxut\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxut\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxut\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxut\DXUTMesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxut\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxut\DXUTRes.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxut\DXUTSettingsDlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxut\DXUTsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvGeometryBuffer.cpp">
+      <Filter>Graphics Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvShaderManager.cpp">
+      <Filter>Graphics Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvState.cpp">
+      <Filter>Graphics Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvTexture.cpp">
+      <Filter>Graphics Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvAutoCamera.cpp">
+      <Filter>Utility Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvCommandLineParser.cpp">
+      <Filter>Utility Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvMouseNavigation.cpp">
+      <Filter>Utility Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvNavigationBase.cpp">
+      <Filter>Utility Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvTimer.cpp">
+      <Filter>Utility Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonSource\IdvVectorMath.cpp">
+      <Filter>Utility Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CommonSource\Environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\ReferenceAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\SpeedTreeBillboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\SpeedTreeCullEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\SpeedTreeForest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\SpeedTreeInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\SpeedTreeWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\SpeedWind2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxut\dxstdafx.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxut\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxut\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxut\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxut\DXUTMesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxut\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxut\DXUTRes.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxut\DXUTSettingsDlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxut\DXUTsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvDirectX9.h">
+      <Filter>Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvGeometryBuffer.h">
+      <Filter>Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvMaterial.h">
+      <Filter>Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvShaderManager.h">
+      <Filter>Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvState.h">
+      <Filter>Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvTexture.h">
+      <Filter>Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvAutoCamera.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvCommandLineParser.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvFilename.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvGlobal.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvMouseNavigation.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvNavigationBase.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvRandom.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvTimer.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\IdvVectorMath.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\stl_vector.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonSource\UpVector.h">
+      <Filter>Utility Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DirectX.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

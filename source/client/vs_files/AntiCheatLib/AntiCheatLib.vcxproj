@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribute|ARM">
+      <Configuration>Distribute</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribute|Win32">
+      <Configuration>Distribute</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribute|x64">
+      <Configuration>Distribute</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\eterSecurity\aes.h" />
+    <ClInclude Include="..\..\source\eterSecurity\aes256_decrypt.h" />
+    <ClInclude Include="..\..\source\eterSecurity\aes256_encrypt.h" />
+    <ClInclude Include="..\..\source\eterSecurity\AnticheatManager.h" />
+    <ClInclude Include="..\..\source\eterSecurity\big_int.h" />
+    <ClInclude Include="..\..\source\eterSecurity\CheatQuarentineManager.h" />
+    <ClInclude Include="..\..\source\eterSecurity\CheatQueueManager.h" />
+    <ClInclude Include="..\..\source\eterSecurity\cl_endian.h" />
+    <ClInclude Include="..\..\source\eterSecurity\DataBuffer.h" />
+    <ClInclude Include="..\..\source\eterSecurity\Exception.h" />
+    <ClInclude Include="..\..\source\eterSecurity\File.h" />
+    <ClInclude Include="..\..\source\eterSecurity\iodevice.h" />
+    <ClInclude Include="..\..\source\eterSecurity\iodevice_provider.h" />
+    <ClInclude Include="..\..\source\eterSecurity\iodevice_provider_file.h" />
+    <ClInclude Include="..\..\source\eterSecurity\md5.h" />
+    <ClInclude Include="..\..\source\eterSecurity\NTDefinations.h" />
+    <ClInclude Include="..\..\source\eterSecurity\ProcessNameHelper.h" />
+    <ClInclude Include="..\..\source\eterSecurity\ProtectionMacros.h" />
+    <ClInclude Include="..\..\source\eterSecurity\PythonStackCheck.h" />
+    <ClInclude Include="..\..\source\eterSecurity\Random.h" />
+    <ClInclude Include="..\..\source\eterSecurity\RSA.h" />
+    <ClInclude Include="..\..\source\eterSecurity\Secret.h" />
+    <ClInclude Include="..\..\source\eterSecurity\sha.h" />
+    <ClInclude Include="..\..\source\eterSecurity\sha256.h" />
+    <ClInclude Include="..\..\source\eterSecurity\Stdafx.h" />
+    <ClInclude Include="..\..\source\eterSecurity\ThreadEnumerator.h" />
+    <ClInclude Include="..\..\source\eterSecurity\WMI_Monitor.h" />
+    <ClInclude Include="..\..\source\eterSecurity\xxhash.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\eterSecurity\aes.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\aes256_decrypt.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\aes256_encrypt.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\AnticheatManager.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\AnticheatWatchdog.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\AntiDebug.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\AntiMacro.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\big_int.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\CheatQuarentineManager.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\CheatQueueManager.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\DataBuffer.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\DumpProtection.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\endianess.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\Exception.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\ExceptionFilter.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\File.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\FileIdentifier.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\iodevice.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\iodevice_provider_file.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\MappedFileIdentifier.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\md5.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\MemoryScanner.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\ProcessScanner.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\PythonStackCheck.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\Random.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\RSA.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\ScreenProtection.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\Secret.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\SectionIntegrityScanner.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\sha.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\sha256.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\StartAddressController.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\Stdafx.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\ThreadEnumerator.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\WinAccessManager.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\WindowScanner.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\WMI_Monitor.cpp" />
+    <ClCompile Include="..\..\source\eterSecurity\xxhash.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>AntiCheatLib</ProjectName>
+    <ProjectGuid>{1473865C-506F-4A48-8E69-92C9211B0BD9}</ProjectGuid>
+    <RootNamespace>AntiCheatLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IncludePath>../../../../extern/3rd_party/lzo/include;../../../../extern/3rd_party/devIL/DevIL/include;../../../../extern/include;../../../../extern/3rd_party;../../../../extern/include/d3d9;$(IncludePath)</IncludePath>
+    <LibraryPath>../../../../extern/2015_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <IncludePath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include\directx9;C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include\directx9;C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IncludePath>../../../../extern/3rd_party/lzo/include;../../../../extern/3rd_party/devIL/DevIL/include;../../../../extern/include;../../../../extern/3rd_party;../../../../extern/include/d3d9;$(IncludePath)</IncludePath>
+    <LibraryPath>../../../../extern/2015_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <IncludePath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include\directx9;C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include\directx9;C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IncludePath>../../../../extern/3rd_party/lzo/include;../../../../extern/3rd_party/devIL/DevIL/include;../../../../extern/include;../../../../extern/3rd_party;../../../../extern/include/d3d9;$(IncludePath)</IncludePath>
+    <LibraryPath>../../../../extern/2015_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|ARM'">
+    <IncludePath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include\directx9;C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|x64'">
+    <IncludePath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include\directx9;C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ulubeu\Desktop\Altyapi\Svn\Client\extern\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>../../../../extern/include;../../../../extern/include/d3d9;../../../../extern/3rd_party;../../../../extern/3rd_party/devIL/DevIL/include;../../../../extern/3rd_party/lzo/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-DNOMINMAX %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../extern/include;../../../../extern/include/d3d9;../../../../extern/3rd_party;../../../../extern/3rd_party/devIL/DevIL/include;../../../../extern/3rd_party/lzo/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-DNOMINMAX %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;__TEST__;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../extern/include;../../../../extern/include/d3d9;../../../../extern/3rd_party;../../../../extern/3rd_party/devIL/DevIL/include;../../../../extern/3rd_party/lzo/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-DNOMINMAX %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|ARM'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;__TEST__;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Distribute|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;__TEST__;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

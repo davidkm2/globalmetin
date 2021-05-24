@@ -1,0 +1,25 @@
+VNUM	LOCALE_NAME
+8383	Þaman Destek Mühürü
+49000	Basit Zýrh Rünü
+49001	Basit Silah Rünü
+49002	Amatör Zýrh Rünü
+49003	Amatör Silah Rünü
+49004	Geliþmiþ Zýrh Rünü
+49005	Geliþmiþ Silah Rünü
+49006	Arýnmýþ Zýrh Rünü
+49007	Arýnmýþ Silah Rünü
+49008	Usta Zýrh Rünü
+49009	Usta Silah Rünü
+49010	Muhteþem Zýrh Rünü
+49011	Muhteþem Silah Rünü
+49012	Efsanevi Zýrh Rünü
+49013	Efsanevi Silah Rünü
+56002	Yükseltme Ýksiri Düþük
+56003	Yükseltme Ýksiri Orta
+56004	Yükseltme Ýksiri Yüksek
+71051	Kadim Efsun Nesnesi
+71052	Kadim Efsun Küresi
+80039	Simya Efsun Parþomeni
+83106	Otomatik Av
+84201	Kutu Ödülü
+84202	Ekstra Yaþam

@@ -1,0 +1,15 @@
+# build path: .../Desktop/py/
+@ https://github.com/python-cmake-buildsystem/python-cmake-buildsystem
+
+---
+
+cd python-build
+
+- 2019
+cmake -A Win32 -DPYTHON_VERSION=2.7.14 -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX:PATH=%HOME%/py/python-install ../python-cmake-buildsystem
+
+- 2015
+cmake -G "Visual Studio 14 2015" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX:PATH=%HOME%/py/python-install ../python-cmake-buildsystem
+
+cmake --build . --config Debug -- /m
+cmake --build . --config Debug --target INSTALL

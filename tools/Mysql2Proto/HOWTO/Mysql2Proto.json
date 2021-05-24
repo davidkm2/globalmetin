@@ -1,0 +1,7 @@
+{
+	"hostname":	"5.196.100.204",
+	"user":		"root",
+	"password":	"12qw12qw",
+	"database":	"player",
+	"port":		3306
+}

@@ -1,0 +1,1 @@
+copy /y *.txt "../../../../Server/share/conf"

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ulubeu\Desktop\Altyapi\Svn\Tools\Archiver\source\xxhash\xxhash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ulubeu\Desktop\Altyapi\Svn\Tools\Archiver\source\xxhash\xxhash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{118ABFEE-800A-36D8-B554-F331DC736166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EDE3AC71-0C73-3303-85EB-9D983D5FE97D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

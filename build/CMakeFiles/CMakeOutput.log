@@ -1,0 +1,979 @@
+The system is: FreeBSD - 13.0-RELEASE - amd64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/gcc9 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/usr/src/Svn/build/CMakeFiles/3.19.6/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/g++9 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/usr/src/Svn/build/CMakeFiles/3.19.6/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /usr/src/Svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_776fd/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_776fd.dir/build.make CMakeFiles/cmTC_776fd.dir/build
+gmake[1]: Entering directory '/usr/src/Svn/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/gcc9   -v -o CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc9
+Target: x86_64-portbld-freebsd13.0
+Configured with: /wrkdirs/usr/ports/lang/gcc9/work/gcc-9.3.0/configure --enable-multilib --with-build-config=bootstrap-debug --disable-nls --enable-gnu-indirect-function --enable-plugin --libdir=/usr/local/lib/gcc9 --libexecdir=/usr/local/libexec/gcc9 --program-suffix=9 --with-as=/usr/local/bin/as --with-gmp=/usr/local --with-gxx-include-dir=/usr/local/lib/gcc9/include/c++/ --with-ld=/usr/local/bin/ld --with-pkgversion='FreeBSD Ports Collection' --with-system-zlib --without-zstd --enable-languages=c,c++,objc,fortran --prefix=/usr/local --localstatedir=/var --mandir=/usr/local/man --infodir=/usr/local/share/info/gcc9 --build=x86_64-portbld-freebsd13.0
+Thread model: posix
+gcc version 9.3.0 (FreeBSD Ports Collection) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/cc1 -quiet -v /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o -version -o /tmp//ccmBRyZN.s
+GNU C17 (FreeBSD Ports Collection) version 9.3.0 (x86_64-portbld-freebsd13.0)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include-fixed"
+ignoring nonexistent directory "/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (FreeBSD Ports Collection) version 9.3.0 (x86_64-portbld-freebsd13.0)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8117f04458bdf8da13467ef736a1410a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/local/bin/as -v -o CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o /tmp//ccmBRyZN.s
+GNU assembler version 2.33.1 (x86_64-portbld-freebsd13.0) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/bin/
+LIBRARY_PATH=/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_776fd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_776fd.dir/link.txt --verbose=1
+/usr/local/bin/gcc9  -v CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o -o cmTC_776fd 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc9
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper
+Target: x86_64-portbld-freebsd13.0
+Configured with: /wrkdirs/usr/ports/lang/gcc9/work/gcc-9.3.0/configure --enable-multilib --with-build-config=bootstrap-debug --disable-nls --enable-gnu-indirect-function --enable-plugin --libdir=/usr/local/lib/gcc9 --libexecdir=/usr/local/libexec/gcc9 --program-suffix=9 --with-as=/usr/local/bin/as --with-gmp=/usr/local --with-gxx-include-dir=/usr/local/lib/gcc9/include/c++/ --with-ld=/usr/local/bin/ld --with-pkgversion='FreeBSD Ports Collection' --with-system-zlib --without-zstd --enable-languages=c,c++,objc,fortran --prefix=/usr/local --localstatedir=/var --mandir=/usr/local/man --infodir=/usr/local/share/info/gcc9 --build=x86_64-portbld-freebsd13.0
+Thread model: posix
+gcc version 9.3.0 (FreeBSD Ports Collection) 
+COMPILER_PATH=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/bin/
+LIBRARY_PATH=/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_776fd' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/collect2 -plugin /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp//cc30D0ZW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64_fbsd -V -dynamic-linker /libexec/ld-elf.so.1 -o cmTC_776fd /usr/lib/crt1.o /usr/lib/crti.o /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtbegin.o -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0 -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../.. CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtend.o /usr/lib/crtn.o
+GNU ld (GNU Binutils) 2.33.1
+  Supported emulations:
+   aix5ppc
+   aix5rs6
+   aixppc
+   aixrs6
+   alpha
+   alphavms
+   arcv2elf
+   arcv2elfx
+   arcelf
+   arcelf_prof
+   arclinux
+   arclinux_nps
+   arclinux_prof
+   arm_wince_pe
+   armelf
+   armelf_fbsd
+   armelf_fuchsia
+   armelf_linux
+   armelf_linux_eabi
+   armelf_linux_fdpiceabi
+   armelf_nacl
+   armelf_nbsd
+   armelf_phoenix
+   armelf_vxworks
+   armelfb
+   armelfb_fbsd
+   armelfb_fuchsia
+   armelfb_linux
+   armelfb_linux_eabi
+   armelfb_linux_fdpiceabi
+   armelfb_nacl
+   armelfb_nbsd
+   armnto
+   armpe
+   armsymbian
+   avr1
+   avr2
+   avr25
+   avr3
+   avr31
+   avr35
+   avr4
+   avr5
+   avr51
+   avr6
+   avrxmega1
+   avrxmega2
+   avrxmega3
+   avrxmega4
+   avrxmega5
+   avrxmega6
+   avrxmega7
+   avrtiny
+   crisaout
+   criself
+   crislinux
+   cskyelf
+   cskyelf_linux
+   d10velf
+   d30v_e
+   d30v_o
+   d30velf
+   elf32_dlx
+   elf32_sparc
+   elf32_sparc_sol2
+   elf32_sparc_vxworks
+   elf32_spu
+   elf32_tic6x_be
+   elf32_tic6x_le
+   elf32_tic6x_linux_be
+   elf32_tic6x_linux_le
+   elf32_tic6x_elf_be
+   elf32_tic6x_elf_le
+   elf32am33lin
+   elf32bfin
+   elf32bfinfd
+   elf32cr16
+   elf32cr16c
+   elf32crx
+   elf32epiphany
+   elf32epiphany_4x4
+   elf32fr30
+   elf32frv
+   elf32frvfd
+   elf32ft32
+   elf32ip2k
+   elf32iq10
+   elf32iq2000
+   elf32lm32
+   elf32lm32fd
+   elf32lppc
+   elf32lppclinux
+   elf32lppcnto
+   elf32lppcsim
+   elf32m32c
+   elf32mb_linux
+   elf32mbel_linux
+   elf32mcore
+   elf32mep
+   elf32metag
+   elf32microblazeel
+   elf32microblaze
+   elf32moxie
+   moxiebox
+   elf32mt
+   elf32or1k
+   elf32or1k_linux
+   elf32ppc
+   elf32ppc_fbsd
+   elf32ppclinux
+   elf32ppcnto
+   elf32ppcsim
+   elf32ppcvxworks
+   elf32ppcwindiss
+   elf32lriscv
+   elf32lriscv_ilp32f
+   elf32lriscv_ilp32
+   elf32rl78
+   elf32rx
+   elf32tilegx
+   elf32tilegx_be
+   elf32tilepro
+   elf32vax
+   elf32visium
+   elf32xc16x
+   elf32xc16xl
+   elf32xc16xs
+   elf32xstormy16
+   elf32xtensa
+   elf_i386
+   elf_i386_be
+   elf_i386_fbsd
+   elf_i386_ldso
+   elf_i386_nacl
+   elf_i386_sol2
+   elf_i386_vxworks
+   elf_iamcu
+   elf_s390
+   h8300elf
+   h8300elf_linux
+   h8300helf
+   h8300helf_linux
+   h8300hnelf
+   h8300self
+   h8300self_linux
+   h8300snelf
+   h8300sxelf
+   h8300sxelf_linux
+   h8300sxnelf
+   hppaelf
+   hppalinux
+   hppanbsd
+   hppaobsd
+   i386beos
+   i386bsd
+   i386go32
+   i386lynx
+   i386moss
+   i386msdos
+   i386nto
+   i386pe
+   i386pe_posix
+   m32relf
+   m32relf_linux
+   m32rlelf
+   m32rlelf_linux
+   m68hc11elf
+   m68hc11elfb
+   m68hc12elf
+   m68hc12elfb
+   m68kelf
+   m68kelfnbsd
+   m9s12zelf
+   mcorepe
+   mn10200
+   mn10300
+   msp430elf
+   msp430X
+   nds32elf
+   nds32elf16m
+   nds32elf_linux
+   nds32belf
+   nds32belf16m
+   nds32belf_linux
+   ns32knbsd
+   nios2elf
+   nios2linux
+   pc532macha
+   pdp11
+   pjelf
+   pjlelf
+   ppclynx
+   ppcmacos
+   ppcpe
+   pruelf
+   score3_elf
+   score7_elf
+   sh
+   shelf
+   shelf_fd
+   shelf_linux
+   shelf_nbsd
+   shelf_nto
+   shelf_uclinux
+   shelf_vxworks
+   shl
+   shlelf
+   shlelf_fd
+   shlelf_linux
+   shlelf_nbsd
+   shlelf_nto
+   shlelf_vxworks
+   shpe
+   tic30aout
+   tic30coff
+   tic3xcoff
+   tic3xcoff_onchip
+   tic4xcoff
+   tic54xcoff
+   tic80coff
+   v850
+   v850_rh850
+   vanilla
+   vaxnbsd
+   xgateelf
+   z80
+   z8001
+   z8002
+   aarch64elf
+   aarch64elf32
+   aarch64elfb
+   aarch64elf32b
+   aarch64cloudabi
+   aarch64cloudabib
+   aarch64fbsd
+   aarch64fbsdb
+   aarch64linux
+   aarch64linuxb
+   aarch64linux32
+   aarch64linux32b
+   elf32_x86_64
+   elf32_x86_64_nacl
+   elf32b4300
+   elf32bmip
+   elf32bmipn32
+   elf32bsmip
+   elf32btsmip
+   elf32btsmip_fbsd
+   elf32btsmipn32
+   elf32btsmipn32_fbsd
+   elf32ebmip
+   elf32ebmipvxworks
+   elf32elmip
+   elf32elmipvxworks
+   elf32l4300
+   elf32lmip
+   elf32lr5900
+   elf32lr5900n32
+   elf32lsmip
+   elf32ltsmip
+   elf32ltsmip_fbsd
+   elf32ltsmipn32
+   elf32ltsmipn32_fbsd
+   elf32mipswindiss
+   elf64_aix
+   elf64bpf
+   elf64_ia64
+   elf64_ia64_fbsd
+   elf64_ia64_vms
+   elf64_s390
+   elf64_sparc
+   elf64_sparc_fbsd
+   elf64_sparc_sol2
+   elf64alpha
+   elf64alpha_fbsd
+   elf64alpha_nbsd
+   elf64bmip
+   elf64btsmip
+   elf64btsmip_fbsd
+   elf64hppa
+   elf64lppc
+   elf64lppc_fbsd
+   elf64lriscv
+   elf64lriscv_lp64f
+   elf64lriscv_lp64
+   elf64ltsmip
+   elf64ltsmip_fbsd
+   elf64mmix
+   elf64ppc
+   elf64ppc_fbsd
+   elf64rdos
+   elf64tilegx
+   elf64tilegx_be
+   elf_l1om
+   elf_l1om_fbsd
+   elf_k1om
+   elf_k1om_fbsd
+   elf_x86_64
+   elf_x86_64_cloudabi
+   elf_x86_64_fbsd
+   elf_x86_64_nacl
+   elf_x86_64_sol2
+   hppa64linux
+   i386pep
+   mmo
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_776fd' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/usr/src/Svn/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include] ==> [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/src/Svn/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_776fd/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_776fd.dir/build.make CMakeFiles/cmTC_776fd.dir/build]
+  ignore line: [gmake[1]: Entering directory '/usr/src/Svn/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/gcc9   -v -o CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc9]
+  ignore line: [Target: x86_64-portbld-freebsd13.0]
+  ignore line: [Configured with: /wrkdirs/usr/ports/lang/gcc9/work/gcc-9.3.0/configure --enable-multilib --with-build-config=bootstrap-debug --disable-nls --enable-gnu-indirect-function --enable-plugin --libdir=/usr/local/lib/gcc9 --libexecdir=/usr/local/libexec/gcc9 --program-suffix=9 --with-as=/usr/local/bin/as --with-gmp=/usr/local --with-gxx-include-dir=/usr/local/lib/gcc9/include/c++/ --with-ld=/usr/local/bin/ld --with-pkgversion='FreeBSD Ports Collection' --with-system-zlib --without-zstd --enable-languages=c,c++,objc,fortran --prefix=/usr/local --localstatedir=/var --mandir=/usr/local/man --infodir=/usr/local/share/info/gcc9 --build=x86_64-portbld-freebsd13.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (FreeBSD Ports Collection) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/cc1 -quiet -v /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o -version -o /tmp//ccmBRyZN.s]
+  ignore line: [GNU C17 (FreeBSD Ports Collection) version 9.3.0 (x86_64-portbld-freebsd13.0)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (FreeBSD Ports Collection) version 9.3.0 (x86_64-portbld-freebsd13.0)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8117f04458bdf8da13467ef736a1410a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/bin/as -v -o CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o /tmp//ccmBRyZN.s]
+  ignore line: [GNU assembler version 2.33.1 (x86_64-portbld-freebsd13.0) using BFD version (GNU Binutils) 2.33.1]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_776fd]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_776fd.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/gcc9  -v CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o -o cmTC_776fd ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc9]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-portbld-freebsd13.0]
+  ignore line: [Configured with: /wrkdirs/usr/ports/lang/gcc9/work/gcc-9.3.0/configure --enable-multilib --with-build-config=bootstrap-debug --disable-nls --enable-gnu-indirect-function --enable-plugin --libdir=/usr/local/lib/gcc9 --libexecdir=/usr/local/libexec/gcc9 --program-suffix=9 --with-as=/usr/local/bin/as --with-gmp=/usr/local --with-gxx-include-dir=/usr/local/lib/gcc9/include/c++/ --with-ld=/usr/local/bin/ld --with-pkgversion='FreeBSD Ports Collection' --with-system-zlib --without-zstd --enable-languages=c,c++,objc,fortran --prefix=/usr/local --localstatedir=/var --mandir=/usr/local/man --infodir=/usr/local/share/info/gcc9 --build=x86_64-portbld-freebsd13.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (FreeBSD Ports Collection) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_776fd' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/collect2 -plugin /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp//cc30D0ZW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64_fbsd -V -dynamic-linker /libexec/ld-elf.so.1 -o cmTC_776fd /usr/lib/crt1.o /usr/lib/crti.o /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtbegin.o -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0 -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../.. CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtend.o /usr/lib/crtn.o]
+    arg [/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp//cc30D0ZW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64_fbsd] ==> ignore
+    arg [-V] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/libexec/ld-elf.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_776fd] ==> ignore
+    arg [/usr/lib/crt1.o] ==> ignore
+    arg [/usr/lib/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0] ==> dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0]
+    arg [-L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib] ==> dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib]
+    arg [-L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../..] ==> dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../..]
+    arg [CMakeFiles/cmTC_776fd.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0] ==> [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0]
+  collapse library dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib] ==> [/usr/local/x86_64-portbld-freebsd13.0/lib]
+  collapse library dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../..] ==> [/usr/local/lib/gcc9]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0;/usr/local/x86_64-portbld-freebsd13.0/lib;/usr/local/lib/gcc9]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /usr/src/Svn/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_5120e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_5120e.dir/build.make CMakeFiles/cmTC_5120e.dir/build
+gmake[1]: Entering directory '/usr/src/Svn/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++9   -v -o CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++9
+Target: x86_64-portbld-freebsd13.0
+Configured with: /wrkdirs/usr/ports/lang/gcc9/work/gcc-9.3.0/configure --enable-multilib --with-build-config=bootstrap-debug --disable-nls --enable-gnu-indirect-function --enable-plugin --libdir=/usr/local/lib/gcc9 --libexecdir=/usr/local/libexec/gcc9 --program-suffix=9 --with-as=/usr/local/bin/as --with-gmp=/usr/local --with-gxx-include-dir=/usr/local/lib/gcc9/include/c++/ --with-ld=/usr/local/bin/ld --with-pkgversion='FreeBSD Ports Collection' --with-system-zlib --without-zstd --enable-languages=c,c++,objc,fortran --prefix=/usr/local --localstatedir=/var --mandir=/usr/local/man --infodir=/usr/local/share/info/gcc9 --build=x86_64-portbld-freebsd13.0
+Thread model: posix
+gcc version 9.3.0 (FreeBSD Ports Collection) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/cc1plus -quiet -v /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp//ccIWVG7B.s
+GNU C++14 (FreeBSD Ports Collection) version 9.3.0 (x86_64-portbld-freebsd13.0)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include-fixed"
+ignoring nonexistent directory "/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc9/include/c++/
+ /usr/local/lib/gcc9/include/c++//x86_64-portbld-freebsd13.0
+ /usr/local/lib/gcc9/include/c++//backward
+ /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++14 (FreeBSD Ports Collection) version 9.3.0 (x86_64-portbld-freebsd13.0)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a6400e492b8c4cbb04c03fcbeff70f33
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/bin/as -v -o CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o /tmp//ccIWVG7B.s
+GNU assembler version 2.33.1 (x86_64-portbld-freebsd13.0) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/bin/
+LIBRARY_PATH=/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_5120e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5120e.dir/link.txt --verbose=1
+/usr/local/bin/g++9  -v CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5120e 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++9
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper
+Target: x86_64-portbld-freebsd13.0
+Configured with: /wrkdirs/usr/ports/lang/gcc9/work/gcc-9.3.0/configure --enable-multilib --with-build-config=bootstrap-debug --disable-nls --enable-gnu-indirect-function --enable-plugin --libdir=/usr/local/lib/gcc9 --libexecdir=/usr/local/libexec/gcc9 --program-suffix=9 --with-as=/usr/local/bin/as --with-gmp=/usr/local --with-gxx-include-dir=/usr/local/lib/gcc9/include/c++/ --with-ld=/usr/local/bin/ld --with-pkgversion='FreeBSD Ports Collection' --with-system-zlib --without-zstd --enable-languages=c,c++,objc,fortran --prefix=/usr/local --localstatedir=/var --mandir=/usr/local/man --infodir=/usr/local/share/info/gcc9 --build=x86_64-portbld-freebsd13.0
+Thread model: posix
+gcc version 9.3.0 (FreeBSD Ports Collection) 
+COMPILER_PATH=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/bin/
+LIBRARY_PATH=/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5120e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/collect2 -plugin /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp//cciRzhJ7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64_fbsd -V -dynamic-linker /libexec/ld-elf.so.1 -o cmTC_5120e /usr/lib/crt1.o /usr/lib/crti.o /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtbegin.o -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0 -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../.. CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtend.o /usr/lib/crtn.o
+GNU ld (GNU Binutils) 2.33.1
+  Supported emulations:
+   aix5ppc
+   aix5rs6
+   aixppc
+   aixrs6
+   alpha
+   alphavms
+   arcv2elf
+   arcv2elfx
+   arcelf
+   arcelf_prof
+   arclinux
+   arclinux_nps
+   arclinux_prof
+   arm_wince_pe
+   armelf
+   armelf_fbsd
+   armelf_fuchsia
+   armelf_linux
+   armelf_linux_eabi
+   armelf_linux_fdpiceabi
+   armelf_nacl
+   armelf_nbsd
+   armelf_phoenix
+   armelf_vxworks
+   armelfb
+   armelfb_fbsd
+   armelfb_fuchsia
+   armelfb_linux
+   armelfb_linux_eabi
+   armelfb_linux_fdpiceabi
+   armelfb_nacl
+   armelfb_nbsd
+   armnto
+   armpe
+   armsymbian
+   avr1
+   avr2
+   avr25
+   avr3
+   avr31
+   avr35
+   avr4
+   avr5
+   avr51
+   avr6
+   avrxmega1
+   avrxmega2
+   avrxmega3
+   avrxmega4
+   avrxmega5
+   avrxmega6
+   avrxmega7
+   avrtiny
+   crisaout
+   criself
+   crislinux
+   cskyelf
+   cskyelf_linux
+   d10velf
+   d30v_e
+   d30v_o
+   d30velf
+   elf32_dlx
+   elf32_sparc
+   elf32_sparc_sol2
+   elf32_sparc_vxworks
+   elf32_spu
+   elf32_tic6x_be
+   elf32_tic6x_le
+   elf32_tic6x_linux_be
+   elf32_tic6x_linux_le
+   elf32_tic6x_elf_be
+   elf32_tic6x_elf_le
+   elf32am33lin
+   elf32bfin
+   elf32bfinfd
+   elf32cr16
+   elf32cr16c
+   elf32crx
+   elf32epiphany
+   elf32epiphany_4x4
+   elf32fr30
+   elf32frv
+   elf32frvfd
+   elf32ft32
+   elf32ip2k
+   elf32iq10
+   elf32iq2000
+   elf32lm32
+   elf32lm32fd
+   elf32lppc
+   elf32lppclinux
+   elf32lppcnto
+   elf32lppcsim
+   elf32m32c
+   elf32mb_linux
+   elf32mbel_linux
+   elf32mcore
+   elf32mep
+   elf32metag
+   elf32microblazeel
+   elf32microblaze
+   elf32moxie
+   moxiebox
+   elf32mt
+   elf32or1k
+   elf32or1k_linux
+   elf32ppc
+   elf32ppc_fbsd
+   elf32ppclinux
+   elf32ppcnto
+   elf32ppcsim
+   elf32ppcvxworks
+   elf32ppcwindiss
+   elf32lriscv
+   elf32lriscv_ilp32f
+   elf32lriscv_ilp32
+   elf32rl78
+   elf32rx
+   elf32tilegx
+   elf32tilegx_be
+   elf32tilepro
+   elf32vax
+   elf32visium
+   elf32xc16x
+   elf32xc16xl
+   elf32xc16xs
+   elf32xstormy16
+   elf32xtensa
+   elf_i386
+   elf_i386_be
+   elf_i386_fbsd
+   elf_i386_ldso
+   elf_i386_nacl
+   elf_i386_sol2
+   elf_i386_vxworks
+   elf_iamcu
+   elf_s390
+   h8300elf
+   h8300elf_linux
+   h8300helf
+   h8300helf_linux
+   h8300hnelf
+   h8300self
+   h8300self_linux
+   h8300snelf
+   h8300sxelf
+   h8300sxelf_linux
+   h8300sxnelf
+   hppaelf
+   hppalinux
+   hppanbsd
+   hppaobsd
+   i386beos
+   i386bsd
+   i386go32
+   i386lynx
+   i386moss
+   i386msdos
+   i386nto
+   i386pe
+   i386pe_posix
+   m32relf
+   m32relf_linux
+   m32rlelf
+   m32rlelf_linux
+   m68hc11elf
+   m68hc11elfb
+   m68hc12elf
+   m68hc12elfb
+   m68kelf
+   m68kelfnbsd
+   m9s12zelf
+   mcorepe
+   mn10200
+   mn10300
+   msp430elf
+   msp430X
+   nds32elf
+   nds32elf16m
+   nds32elf_linux
+   nds32belf
+   nds32belf16m
+   nds32belf_linux
+   ns32knbsd
+   nios2elf
+   nios2linux
+   pc532macha
+   pdp11
+   pjelf
+   pjlelf
+   ppclynx
+   ppcmacos
+   ppcpe
+   pruelf
+   score3_elf
+   score7_elf
+   sh
+   shelf
+   shelf_fd
+   shelf_linux
+   shelf_nbsd
+   shelf_nto
+   shelf_uclinux
+   shelf_vxworks
+   shl
+   shlelf
+   shlelf_fd
+   shlelf_linux
+   shlelf_nbsd
+   shlelf_nto
+   shlelf_vxworks
+   shpe
+   tic30aout
+   tic30coff
+   tic3xcoff
+   tic3xcoff_onchip
+   tic4xcoff
+   tic54xcoff
+   tic80coff
+   v850
+   v850_rh850
+   vanilla
+   vaxnbsd
+   xgateelf
+   z80
+   z8001
+   z8002
+   aarch64elf
+   aarch64elf32
+   aarch64elfb
+   aarch64elf32b
+   aarch64cloudabi
+   aarch64cloudabib
+   aarch64fbsd
+   aarch64fbsdb
+   aarch64linux
+   aarch64linuxb
+   aarch64linux32
+   aarch64linux32b
+   elf32_x86_64
+   elf32_x86_64_nacl
+   elf32b4300
+   elf32bmip
+   elf32bmipn32
+   elf32bsmip
+   elf32btsmip
+   elf32btsmip_fbsd
+   elf32btsmipn32
+   elf32btsmipn32_fbsd
+   elf32ebmip
+   elf32ebmipvxworks
+   elf32elmip
+   elf32elmipvxworks
+   elf32l4300
+   elf32lmip
+   elf32lr5900
+   elf32lr5900n32
+   elf32lsmip
+   elf32ltsmip
+   elf32ltsmip_fbsd
+   elf32ltsmipn32
+   elf32ltsmipn32_fbsd
+   elf32mipswindiss
+   elf64_aix
+   elf64bpf
+   elf64_ia64
+   elf64_ia64_fbsd
+   elf64_ia64_vms
+   elf64_s390
+   elf64_sparc
+   elf64_sparc_fbsd
+   elf64_sparc_sol2
+   elf64alpha
+   elf64alpha_fbsd
+   elf64alpha_nbsd
+   elf64bmip
+   elf64btsmip
+   elf64btsmip_fbsd
+   elf64hppa
+   elf64lppc
+   elf64lppc_fbsd
+   elf64lriscv
+   elf64lriscv_lp64f
+   elf64lriscv_lp64
+   elf64ltsmip
+   elf64ltsmip_fbsd
+   elf64mmix
+   elf64ppc
+   elf64ppc_fbsd
+   elf64rdos
+   elf64tilegx
+   elf64tilegx_be
+   elf_l1om
+   elf_l1om_fbsd
+   elf_k1om
+   elf_k1om_fbsd
+   elf_x86_64
+   elf_x86_64_cloudabi
+   elf_x86_64_fbsd
+   elf_x86_64_nacl
+   elf_x86_64_sol2
+   hppa64linux
+   i386pep
+   mmo
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5120e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/usr/src/Svn/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib/gcc9/include/c++/]
+    add: [/usr/local/lib/gcc9/include/c++//x86_64-portbld-freebsd13.0]
+    add: [/usr/local/lib/gcc9/include/c++//backward]
+    add: [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/lib/gcc9/include/c++/] ==> [/usr/local/lib/gcc9/include/c++]
+  collapse include dir [/usr/local/lib/gcc9/include/c++//x86_64-portbld-freebsd13.0] ==> [/usr/local/lib/gcc9/include/c++/x86_64-portbld-freebsd13.0]
+  collapse include dir [/usr/local/lib/gcc9/include/c++//backward] ==> [/usr/local/lib/gcc9/include/c++/backward]
+  collapse include dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include] ==> [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/lib/gcc9/include/c++;/usr/local/lib/gcc9/include/c++/x86_64-portbld-freebsd13.0;/usr/local/lib/gcc9/include/c++/backward;/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/src/Svn/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_5120e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_5120e.dir/build.make CMakeFiles/cmTC_5120e.dir/build]
+  ignore line: [gmake[1]: Entering directory '/usr/src/Svn/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/g++9   -v -o CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/g++9]
+  ignore line: [Target: x86_64-portbld-freebsd13.0]
+  ignore line: [Configured with: /wrkdirs/usr/ports/lang/gcc9/work/gcc-9.3.0/configure --enable-multilib --with-build-config=bootstrap-debug --disable-nls --enable-gnu-indirect-function --enable-plugin --libdir=/usr/local/lib/gcc9 --libexecdir=/usr/local/libexec/gcc9 --program-suffix=9 --with-as=/usr/local/bin/as --with-gmp=/usr/local --with-gxx-include-dir=/usr/local/lib/gcc9/include/c++/ --with-ld=/usr/local/bin/ld --with-pkgversion='FreeBSD Ports Collection' --with-system-zlib --without-zstd --enable-languages=c,c++,objc,fortran --prefix=/usr/local --localstatedir=/var --mandir=/usr/local/man --infodir=/usr/local/share/info/gcc9 --build=x86_64-portbld-freebsd13.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (FreeBSD Ports Collection) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/cc1plus -quiet -v /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp//ccIWVG7B.s]
+  ignore line: [GNU C++14 (FreeBSD Ports Collection) version 9.3.0 (x86_64-portbld-freebsd13.0)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib/gcc9/include/c++/]
+  ignore line: [ /usr/local/lib/gcc9/include/c++//x86_64-portbld-freebsd13.0]
+  ignore line: [ /usr/local/lib/gcc9/include/c++//backward]
+  ignore line: [ /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (FreeBSD Ports Collection) version 9.3.0 (x86_64-portbld-freebsd13.0)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a6400e492b8c4cbb04c03fcbeff70f33]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/bin/as -v -o CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o /tmp//ccIWVG7B.s]
+  ignore line: [GNU assembler version 2.33.1 (x86_64-portbld-freebsd13.0) using BFD version (GNU Binutils) 2.33.1]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_5120e]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5120e.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/g++9  -v CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5120e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/g++9]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-portbld-freebsd13.0]
+  ignore line: [Configured with: /wrkdirs/usr/ports/lang/gcc9/work/gcc-9.3.0/configure --enable-multilib --with-build-config=bootstrap-debug --disable-nls --enable-gnu-indirect-function --enable-plugin --libdir=/usr/local/lib/gcc9 --libexecdir=/usr/local/libexec/gcc9 --program-suffix=9 --with-as=/usr/local/bin/as --with-gmp=/usr/local --with-gxx-include-dir=/usr/local/lib/gcc9/include/c++/ --with-ld=/usr/local/bin/ld --with-pkgversion='FreeBSD Ports Collection' --with-system-zlib --without-zstd --enable-languages=c,c++,objc,fortran --prefix=/usr/local --localstatedir=/var --mandir=/usr/local/man --infodir=/usr/local/share/info/gcc9 --build=x86_64-portbld-freebsd13.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (FreeBSD Ports Collection) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib/:/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5120e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/collect2 -plugin /usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp//cciRzhJ7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64_fbsd -V -dynamic-linker /libexec/ld-elf.so.1 -o cmTC_5120e /usr/lib/crt1.o /usr/lib/crti.o /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtbegin.o -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0 -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib -L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../.. CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtend.o /usr/lib/crtn.o]
+    arg [/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp//cciRzhJ7.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64_fbsd] ==> ignore
+    arg [-V] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/libexec/ld-elf.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5120e] ==> ignore
+    arg [/usr/lib/crt1.o] ==> ignore
+    arg [/usr/lib/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0] ==> dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0]
+    arg [-L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib] ==> dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib]
+    arg [-L/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../..] ==> dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../..]
+    arg [CMakeFiles/cmTC_5120e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0] ==> [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0]
+  collapse library dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../../../../x86_64-portbld-freebsd13.0/lib] ==> [/usr/local/x86_64-portbld-freebsd13.0/lib]
+  collapse library dir [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0/../../..] ==> [/usr/local/lib/gcc9]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/local/lib/gcc9/gcc/x86_64-portbld-freebsd13.0/9.3.0;/usr/local/x86_64-portbld-freebsd13.0/lib;/usr/local/lib/gcc9]
+  implicit fwks: []
+
+

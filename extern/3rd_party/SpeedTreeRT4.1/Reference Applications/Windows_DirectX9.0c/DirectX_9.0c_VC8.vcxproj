@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>DirectX 9.0c</ProjectName>
+    <ProjectGuid>{89A1C899-EC5A-4CF2-A8A6-6EFB7D1BB956}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug VC7\</OutDir>
+    <IntDir>.\Debug VC8\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>G:\MT2\Sources\Trunk\Extern\include\DirectX9;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\MT2\Sources\Trunk\Extern\lib\DirectX9;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release VC8\</OutDir>
+    <IntDir>.\Release VC8\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/DirectX9.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\include;..\CommonSource;C:\Program Files\NVIDIA Corporation\Cg\include;..\Common Source\SpeedWind;G:\MT2\Sources\Trunk\Extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;IDV_DIRECTX9;_CRT_SECURE_NO_DEPRECATE;UPVECTOR_POS_Z;BRANCH_DETAIL_LAYER;BRANCH_NORMAL_MAPPING;LEAF_NORMAL_MAPPING;FROND_NORMAL_MAPPING;INTERMEDIATE_FRONDBRANCH_FADING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Debug VC8\DirectX9.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug VC8\</AssemblerListingLocation>
+      <ObjectFileName>.\Debug VC8\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug VC8\</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dsound.lib;dinput8.lib;dxerr.lib;d3dx9.lib;d3d9.lib;d3dxof.lib;dxguid.lib;winmm.lib;comctl32.lib;odbc32.lib;odbccp32.lib;SpeedTreeRT_static_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\VC8\Debug\DirectX_Sample.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>G:\MT2\Sources\Trunk\Extern\lib\DirectX9;G:\MT2\Sources\Trunk\Extern\lib\SpeedTree;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug VC8\SpeedTreeRT DirectX 9.0.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/DirectX9.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\include;..\CommonSource;C:\Program Files\NVIDIA Corporation\Cg\include;..\Common Source\SpeedWind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;IDV_DIRECTX9;_CRT_SECURE_NO_DEPRECATE;UPVECTOR_POS_Z;BRANCH_DETAIL_LAYER;BRANCH_NORMAL_MAPPING;LEAF_NORMAL_MAPPING;FROND_NORMAL_MAPPING;INTERMEDIATE_FRONDBRANCH_FADING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Release VC8\DirectX9.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release VC8\</AssemblerListingLocation>
+      <ObjectFileName>.\Release VC8\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release VC8\</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dsound.lib;dinput8.lib;dxerr.lib;d3dx9.lib;d3d9.lib;d3dxof.lib;dxguid.lib;winmm.lib;comctl32.lib;odbc32.lib;odbccp32.lib;SpeedTreeRT_Static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\VC8\Release\DirectX_Sample.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\lib\VC8\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Release VC8\SpeedTreeRT DirectX 9.0.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CommonSource\Environment.cpp" />
+    <ClCompile Include="..\CommonSource\IdvAutoCamera.cpp" />
+    <ClCompile Include="..\CommonSource\IdvCommandLineParser.cpp" />
+    <ClCompile Include="..\CommonSource\IdvGeometryBuffer.cpp" />
+    <ClCompile Include="..\CommonSource\IdvMouseNavigation.cpp" />
+    <ClCompile Include="..\CommonSource\IdvNavigationBase.cpp" />
+    <ClCompile Include="..\CommonSource\IdvShaderManager.cpp" />
+    <ClCompile Include="..\CommonSource\IdvState.cpp" />
+    <ClCompile Include="..\CommonSource\IdvTexture.cpp" />
+    <ClCompile Include="..\CommonSource\IdvTimer.cpp" />
+    <ClCompile Include="..\CommonSource\IdvVectorMath.cpp" />
+    <ClCompile Include="..\CommonSource\SpeedTreeCullEngine.cpp" />
+    <ClCompile Include="..\CommonSource\SpeedTreeForest.cpp" />
+    <ClCompile Include="..\CommonSource\SpeedTreeInstance.cpp" />
+    <ClCompile Include="..\CommonSource\SpeedTreeWrapper.cpp" />
+    <ClCompile Include="Dxut\dxstdafx.cpp" />
+    <ClCompile Include="Dxut\DXUT.cpp" />
+    <ClCompile Include="Dxut\DXUTenum.cpp" />
+    <ClCompile Include="Dxut\DXUTgui.cpp" />
+    <ClCompile Include="Dxut\DXUTMesh.cpp" />
+    <ClCompile Include="Dxut\DXUTmisc.cpp" />
+    <ClCompile Include="Dxut\DXUTRes.cpp" />
+    <ClCompile Include="Dxut\DXUTSettingsDlg.cpp" />
+    <ClCompile Include="Dxut\DXUTsound.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CommonSource\Environment.h" />
+    <ClInclude Include="..\CommonSource\IdvAutoCamera.h" />
+    <ClInclude Include="..\CommonSource\IdvCommandLineParser.h" />
+    <ClInclude Include="..\CommonSource\IdvDirectX9.h" />
+    <ClInclude Include="..\CommonSource\IdvFilename.h" />
+    <ClInclude Include="..\CommonSource\IdvGeometryBuffer.h" />
+    <ClInclude Include="..\CommonSource\IdvGlobal.h" />
+    <ClInclude Include="..\CommonSource\IdvMaterial.h" />
+    <ClInclude Include="..\CommonSource\IdvMouseNavigation.h" />
+    <ClInclude Include="..\CommonSource\IdvNavigationBase.h" />
+    <ClInclude Include="..\CommonSource\IdvRandom.h" />
+    <ClInclude Include="..\CommonSource\IdvShaderManager.h" />
+    <ClInclude Include="..\CommonSource\IdvState.h" />
+    <ClInclude Include="..\CommonSource\IdvTexture.h" />
+    <ClInclude Include="..\CommonSource\IdvTimer.h" />
+    <ClInclude Include="..\CommonSource\IdvVectorMath.h" />
+    <ClInclude Include="..\CommonSource\ReferenceAllocator.h" />
+    <ClInclude Include="..\CommonSource\SpeedTreeBillboard.h" />
+    <ClInclude Include="..\CommonSource\SpeedTreeCullEngine.h" />
+    <ClInclude Include="..\CommonSource\SpeedTreeForest.h" />
+    <ClInclude Include="..\CommonSource\SpeedTreeInstance.h" />
+    <ClInclude Include="..\CommonSource\SpeedTreeWrapper.h" />
+    <ClInclude Include="..\CommonSource\SpeedWind2.h" />
+    <ClInclude Include="..\CommonSource\stl_vector.h" />
+    <ClInclude Include="..\CommonSource\UpVector.h" />
+    <ClInclude Include="Dxut\dxstdafx.h" />
+    <ClInclude Include="Dxut\DXUT.h" />
+    <ClInclude Include="Dxut\DXUTenum.h" />
+    <ClInclude Include="Dxut\DXUTgui.h" />
+    <ClInclude Include="Dxut\DXUTMesh.h" />
+    <ClInclude Include="Dxut\DXUTmisc.h" />
+    <ClInclude Include="Dxut\DXUTRes.h" />
+    <ClInclude Include="Dxut\DXUTSettingsDlg.h" />
+    <ClInclude Include="Dxut\DXUTsound.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DirectX.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

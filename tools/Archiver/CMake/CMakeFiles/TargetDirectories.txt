@@ -1,0 +1,7 @@
+C:/Users/ulubeu/Desktop/Altyapi/Svn/Tools/Archiver/CMakeFiles/vs_files/FoxFSServer/FoxFSServer.dir
+C:/Users/ulubeu/Desktop/Altyapi/Svn/Tools/Archiver/CMakeFiles/vs_files/FoxFSArchiver/FoxFSArchiver.dir
+C:/Users/ulubeu/Desktop/Altyapi/Svn/Tools/Archiver/CMakeFiles/vs_files/lz4/lz4.dir
+C:/Users/ulubeu/Desktop/Altyapi/Svn/Tools/Archiver/CMakeFiles/vs_files/xxhash/xxhash.dir
+C:/Users/ulubeu/Desktop/Altyapi/Svn/Tools/Archiver/CMakeFiles/vs_files/FoxFS/FoxFS.dir
+C:/Users/ulubeu/Desktop/Altyapi/Svn/Tools/Archiver/CMakeFiles/ALL_BUILD.dir
+C:/Users/ulubeu/Desktop/Altyapi/Svn/Tools/Archiver/CMakeFiles/ZERO_CHECK.dir
